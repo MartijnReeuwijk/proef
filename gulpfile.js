@@ -9,7 +9,7 @@ var gulp = require('gulp'),
     tar = require('gulp-tar'),
     gutil = require('gulp-util'),
     ftp = require('gulp-ftp'),
-    settings = require('./settings.json'),
+    // settings = require('./settings.json'),
     sources;
 
 sources = [
