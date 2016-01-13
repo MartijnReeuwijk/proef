@@ -1,10 +1,13 @@
-var express = require('express');
+// The App
+var express = require("express");
 var app = express();
 
-app.get('/', function (req, res) {
-  res.send('');
-});
+// Use static middleware
+app.use(express.static(__dirname + '/src'));
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
-})
+// Create HTTP server with your app
+var http = require("http");
+var server = http.createServer(app)
+
+// Listen to port 3000
+server.listen(3000);

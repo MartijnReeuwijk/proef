@@ -26,4 +26,13 @@
     "jshint": "^2.8.0",
     "jshint-stylish": "^2.1.0"
   }
+
+  {
+  "name" : "verslag",
+  "version" : "0.0.1",
+  "description" : "verslag",
+  "dependencies" : {
+    "mime" : "~1.2.7"
+  }
+}
 }
