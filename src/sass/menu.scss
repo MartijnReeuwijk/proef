@@ -1,0 +1,38 @@
+.navbar {
+	width: 100vw;
+	height: 65px;
+
+	background-color: $primary-color;
+
+}
+
+.nav {
+	a {
+		font-size: 20px;
+		text-decoration: none;
+		float: left;
+
+		&:visited {
+			text-decoration: none;
+		}
+	}
+}
+
+.right {
+	float: right;
+	height: 65px;
+	width: 220px;
+
+	a {
+		width: auto;
+
+		margin: 0 5px ;
+		padding: 0 10px;
+
+		line-height: 65px;
+
+		&:hover {
+			background-color: $primary-color-light;
+		}
+	}
+}

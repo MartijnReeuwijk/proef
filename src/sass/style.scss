@@ -1,3 +1,10 @@
 @import 'meyer-reset';
 @import 'bourbon/bourbon';
+@import 'palette';
+
+@import 'comp';
 @import 'menu';
+
+body {
+	 font-family: 'Roboto', sans-serif;
+}
