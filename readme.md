@@ -1,101 +1,57 @@
-# stageverslag
-stageverslag website
+# This Repo is a Sandbox for testing (new) front end techniques
 
-## Setup
+## Requirements
 
-Clone the repo with git:
-```
-git clone git@github.com:MartijnReeuwijk/stageverslag.git
-```
-
-Requirements:
-* [Node.js](https://nodejs.org/en/)
+* [NodeJS (v0.10.26)](http://nodejs.org/dist/v0.10.26/node-v0.10.26.pkg)
 * [NPM](https://www.npmjs.com/)
-* [Gulp](http://gulpjs.com/)
 * [Sass](http://sass-lang.com/)
-* [SCSS Lint](https://github.com/brigade/scss-lint)
-* [SCSS Lint reporter checkstyle](https://github.com/Sweetchuck/scss_lint_reporter_checkstyle)
 * [Bourbon](http://bourbon.io/)
 
-Install the node modules
+Install the npm modules:
 ```
 npm install
 ```
 
-After installing the listed requirements you can start developing! :)
+## Development
 
-To compile Sass run:
+To compile sass run:
 ```
-gulp sass
-```
-
-To watch for Sass changes run:
-```
-gulp watch
+make sass
 ```
 
-## Code Styling and Linting
-
-I've installed some node modules to help with my code styling.
-
-To check scss code styling run:
+To let gulp watch for changes in your sass files run:
 ```
-gulp scss
+make watch
 ```
 
-To check js code styling run:
+## Code Style and Linting
+
+It's important to check your changes against our styling and linting guidelines. We use gulp to process this.
+
+To check the Javascript Linting run:
 ```
-gulp jscs
+make lint
 ```
 
-To check js linting run:
+To check the Javascript code styling run:
 ```
-gulp lint
+make jscs
 ```
+
+To check the Scss code styling run:
+```
+make scss
+```
+
+All issues should be resolved before committing your changes.
 
 ## Generating Build
-
-To compress the project folder run:
+To generate a production ready (kind of) build run:
 ```
-gulp compress
+make compress
 ```
-This will compile all Sass files and create an archive.gz file in the build directory.
+This will compile all the sass and zip the project directory.
 
-To deploy the website run:
-```
-gulp deploy
-```
-This will compile all Sass files and deploy the website using gulp-ftp.
+## Questions
 
-### License
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons-Licentie" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
-
-
-```
-
-
-............................................________
-....................................,.-'"...................``~.,
-.............................,.-"..................................."-.,
-.........................,/...............................................":,
-.....................,?......................................................,
-.................../...........................................................,}
-................./......................................................,:`^`..}
-.............../...................................................,:"........./
-..............?.....__.........................................:`.........../
-............./__.(....."~-,_..............................,:`........../
-.........../(_...."~,_........"~,_....................,:`........_/
-..........{.._$;_......"=,_......."-,_.......,.-~-,},.~";/....}
-...........((.....*~_......."=-._......";,,./`..../"............../
-...,,,___.`~,......"~.,....................`.....}............../
-............(....`=-,,.......`........................(......;_,,-"
-............/.`~,......`-...................................../
-.............`~.*-,.....................................|,./.....,__
-,,_..........}.>-._...................................|..............`=~-,
-.....`=~-,__......`,.................................
-...................`=~-,,.,...............................
-................................`:,,...........................`..............__
-.....................................`=-,...................,%`>--==``
-........................................_..........._,-%.......`
-..................................., 
-```
+If you have any questions please contact Peter Kuiper or Sjaak Luthart.
