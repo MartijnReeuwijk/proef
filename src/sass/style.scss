@@ -1,0 +1,12 @@
+@import 'meyer-reset';
+@import 'bourbon/bourbon';
+
+body {
+    p {
+        color: blue;
+    }
+}
+
+h1 {
+    @extend p;
+}

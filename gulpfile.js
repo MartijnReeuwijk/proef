@@ -1,15 +1,13 @@
 'use strict';
 
 var gulp = require('gulp'),
-    sass = require('gulp-ruby-sass'),
+    notify = require('gulp-notify'),
     jscs = require('gulp-jscs'),
     jshint = require('gulp-jshint'),
+    sass = require('gulp-ruby-sass'),
     stylish = require('gulp-jscs-stylish'),
     scsslint = require('gulp-scss-lint'),
     tar = require('gulp-tar'),
-    gutil = require('gulp-util'),
-    ftp = require('gulp-ftp'),
-    // settings = require('./settings.json'),
     sources;
 
 sources = [
@@ -18,6 +16,14 @@ sources = [
     '!node_modules/**/*.js',
     '!src/**/*.min.js'
 ];
+
+gulp.task('default', function() {
+    return gulp.src(sources)
+        .pipe(jshint())
+        .pipe(jscs())
+        .pipe(stylish.combineWithHintResults())
+        .pipe(jshint.reporter('jshint-stylish'));
+});
 
 gulp.task('jscs', function() {
     return gulp.src(sources)
@@ -28,12 +34,10 @@ gulp.task('jscs', function() {
 gulp.task('scss', function() {
     return gulp.src([
             'src/**/*.scss',
-            '!**/bourbon/**',
-            '!**/animatewithsass/**',
-            '!**/meyer-reset.scss'
+            '!src/sass/bourbon/**'
         ])
         .pipe(scsslint({
-            'config': 'scss-lint.yml',
+            'config': 'scss.yml',
             'maxBuffer': 1307200
         }));
 });
@@ -45,38 +49,21 @@ gulp.task('lint', function() {
 });
 
 gulp.task('sass', function() {
-    return sass('src/assets/sass/**/style.scss', {style: 'compressed'})
+    return sass('src/sass/**/style.scss', {style: 'compressed'})
         .on('error', sass.logError)
-        .pipe(gulp.dest('src/assets/stylesheets'));
+        .pipe(gulp.dest('src/stylesheets'));
 });
 
 gulp.task('watch', function() {
-    gulp.watch('src/assets/sass/*.scss', ['sass']);
+    gulp.watch('src/sass/*.scss', ['sass']);
 });
 
 gulp.task('compress', ['sass'], function() {
-    return gulp.src([
+    gulp.src([
             'src/**/*',
-            '!src/assets/sass/',
-            '!src/assets/sass/**/*',
-            '!src/assets/stylesheets/style.css.map'
+            '!src/sass/',
+            '!src/sass/**/*'
         ])
         .pipe(tar('archive.zip'))
         .pipe(gulp.dest('build'));
-});
-
-gulp.task('deploy', ['sass'], function() {
-    return gulp.src([
-            'src/**/*',
-            '!src/assets/sass/',
-            '!src/assets/sass/**/*',
-            '!src/assets/stylesheets/style.css.map'
-        ])
-        .pipe(ftp({
-            host: settings.host,
-            user: settings.user,
-            pass: settings.pass,
-            remotePath: settings.remotePath
-        }))
-        .pipe(gutil.noop());
 });
