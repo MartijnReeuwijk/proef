@@ -1,0 +1,38 @@
+.wrapper {
+	width: calc(100% - 20px);
+	height: 100%;
+
+	margin: 0 10px;
+
+	z-index: -1;
+
+	background-color: $divider-color;
+
+	position: absolute;
+
+}
+
+.header {
+	width: calc(100% - 20px);
+	height: 500px;
+
+	background-color: $primary-color-light;
+
+	margin: 120px  auto 10px auto;
+
+	right: 0;
+	left: 0;
+
+	z-index: 0;
+}
+
+.opdr {
+width: calc(25% - 20px);
+height: 300px;
+
+margin: 5px 10px;
+
+float: left;
+position: relative;
+background-color: $primary-color-dark
+}

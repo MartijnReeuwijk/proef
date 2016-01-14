@@ -1,13 +1,11 @@
-// The App
-var express = require("express");
+var express = require('express');
 var app = express();
 
-// Use static middleware
-app.use(express.static(__dirname + '/src'));
+app.use(express.static('src'));
 
-// Create HTTP server with your app
-var http = require("http");
-var server = http.createServer(app)
+var server = app.listen(3000, function () {
+    var host = server.address().address;
+    var port = server.address().port;
 
-// Listen to port 3000
-server.listen(3000);
+    console.log('App listening at http://%s:%s', host, port);
+});
