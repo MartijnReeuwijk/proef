@@ -1,4 +1,19 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
+
+    opdr = $('.opdr');
+    intro = $('.intro');
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 });
