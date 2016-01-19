@@ -1,4 +1,4 @@
-# This Repo is a Sandbox for testing (new) front end techniques
+# Deze repo is voor mijn stageverslag en heeft een basic voor projecten.
 
 ## Requirements
 
@@ -14,44 +14,37 @@ npm install
 
 ## Development
 
-To compile sass run:
+om tecompile naar sass run:
 ```
 make sass
 ```
 
-To let gulp watch for changes in your sass files run:
+Check de sass en voor verandering:
 ```
 make watch
 ```
 
-## Code Style and Linting
+## Code Style & Linting
 
-It's important to check your changes against our styling and linting guidelines. We use gulp to process this.
+Hou je aan de lint style
 
-To check the Javascript Linting run:
+doe de Javascript Linting run:
 ```
 make lint
 ```
 
-To check the Javascript code styling run:
+Javascript code styling run:
 ```
 make jscs
 ```
 
-To check the Scss code styling run:
+check de Scss code styling run:
 ```
 make scss
 ```
 
-All issues should be resolved before committing your changes.
-
 ## Generating Build
-To generate a production ready (kind of) build run:
+Genereer een zip om te versturen / uploaden :
 ```
 make compress
 ```
-This will compile all the sass and zip the project directory.
-
-## Questions
-
-If you have any questions please contact Peter Kuiper or Sjaak Luthart.

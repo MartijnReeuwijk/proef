@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="145px" height="112px" viewBox="0 0 145 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>personen</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0679234601 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0679234601 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0679234601 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0679234601 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="HOME" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Home-Copy-2" sketch:type="MSArtboardGroup" transform="translate(-514.000000, -501.000000)">
+            <g id="Intro" sketch:type="MSLayerGroup" transform="translate(-2.000000, 0.000000)">
+                <g id="personen" transform="translate(516.000000, 501.000000)">
+                    <g id="Henk-jan" transform="translate(0.000000, 0.884311)">
+                        <rect id="base" fill="#2ED8B1" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="0" y="0" width="145" height="27.0079365"></rect>
+                        <ellipse id="avater" fill="#E7E9FD" sketch:type="MSShapeGroup" cx="15.1590909" cy="13.8552562" rx="9.88636364" ry="9.86529319"></ellipse>
+                        <text id="Chantal" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="9.20760697" font-weight="260" line-spacing="14" letter-spacing="0.800000012" fill="#FFFFFF">
+                            <tspan x="29" y="14.2460317">Chantal</tspan>
+                        </text>
+                    </g>
+                    <g id="pinky" transform="translate(0.000000, 27.893291)">
+                        <rect id="base-copy" fill="#2ED8B1" filter="url(#filter-2)" sketch:type="MSShapeGroup" x="0" y="0.613840465" width="145" height="27.0079365"></rect>
+                        <ellipse id="avater" fill="#E7E9FD" sketch:type="MSShapeGroup" cx="15.1590909" cy="14.4252509" rx="9.88636364" ry="9.86529319"></ellipse>
+                        <ellipse id="Oval-6" fill="#FF4D6B" sketch:type="MSShapeGroup" cx="131.159091" cy="14.4691328" rx="7.25" ry="7.23454834"></ellipse>
+                        <text id="34" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="7.23454834" font-weight="260" line-spacing="11" fill="#FFFFFF">
+                            <tspan x="127.204545" y="16.5230287">34</tspan>
+                        </text>
+                        <text id="Frederique" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="9.20760697" font-weight="260" line-spacing="14" letter-spacing="0.800000012" fill="#FFFFFF">
+                            <tspan x="29" y="16.8922839">Frederiqu</tspan>
+                            <tspan x="72.3951031" y="16.8922839">e</tspan>
+                        </text>
+                    </g>
+                    <g id="welcome:-Henk-jan-+-account-3" transform="translate(0.000000, 55.559958)">
+                        <rect id="base-copy-2" fill="#2ED8B1" filter="url(#filter-3)" sketch:type="MSShapeGroup" x="0" y="0.569994717" width="145" height="27.0079365"></rect>
+                        <ellipse id="avater" fill="#E7E9FD" sketch:type="MSShapeGroup" cx="15.1590909" cy="13.7675647" rx="9.88636364" ry="9.86529319"></ellipse>
+                        <text id="Jenny" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="9.20760697" font-weight="260" line-spacing="14" letter-spacing="0.800000012" fill="#FFFFFF">
+                            <tspan x="29" y="15.903718">Jenny</tspan>
+                        </text>
+                    </g>
+                    <g id="welcome:-Henk-jan-+-account-4" transform="translate(0.000000, 83.226624)">
+                        <rect id="base-copy-3" fill="#2ED8B1" filter="url(#filter-4)" sketch:type="MSShapeGroup" x="0" y="0.52614897" width="145" height="27.0079365"></rect>
+                        <text id="Alain" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="9.20760697" font-weight="260" line-spacing="14" letter-spacing="0.800000012" fill="#FFFFFF">
+                            <tspan x="29" y="16.2449878">Alain</tspan>
+                        </text>
+                        <ellipse id="avater" fill="#E7E9FD" sketch:type="MSShapeGroup" cx="15.1590909" cy="14.3814052" rx="9.88636364" ry="9.86529319"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

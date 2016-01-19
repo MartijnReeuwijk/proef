@@ -22,6 +22,7 @@
 	background-color: $primary-color-light;
 	background-image:url(#{$img}place.jpg);
 	background-position: center;
+	background-size: cover;
 
 	margin: 0 auto 10px auto;
 
@@ -67,18 +68,21 @@
 
 
 .opdr {
-	width: calc(16.6vw - 10px);
-	height: calc(16.6vw - 10px);
+	width: calc(20vw - 8px);
+	height: 200px;
 
-	margin: 5px;
+	margin: 4px;
 
 	float: left;
 	position: relative;
 	background-color: $primary-color-dark;
 
+
+	background-position: center;
+	background-size: cover;
+
 	font-size: 20px;
 	color: $primary-color-text;
-
 
 	@include transition(all .3s ease-in-out);
 	.bar {
@@ -90,7 +94,7 @@
 		bottom: 0;
 
 		p {
-			margin: 3px;
+			margin: 5px;
 		}
 	}
 
@@ -99,6 +103,8 @@
 		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
 		@include transition(all .3s ease-in-out);
 	}
+
+
 
 }
 

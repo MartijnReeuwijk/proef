@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="473px" height="415px" viewBox="0 0 473 415" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>friend chat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="HOME" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Home-Copy-2" sketch:type="MSArtboardGroup" transform="translate(-659.000000, -469.000000)">
+            <g id="Intro" sketch:type="MSLayerGroup" transform="translate(-2.000000, 0.000000)">
+                <g id="friend-chat" transform="translate(661.000000, 469.000000)">
+                    <rect id="base" fill="#D2DCFF" sketch:type="MSShapeGroup" x="0" y="0" width="473" height="415"></rect>
+                    <rect id="input_chat" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="376" width="435" height="39"></rect>
+                    <text id="Dat-zou-erg-leuk-zij" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="14" font-weight="260" line-spacing="20" letter-spacing="0.774063468" fill="#2ED8B1">
+                        <tspan x="20" y="397">Dat zou erg leuk zijn!</tspan>
+                    </text>
+                    <g id="Stuur" transform="translate(406.000000, 376.000000)" sketch:type="MSShapeGroup">
+                        <rect id="base_btn" fill="#FFCE3B" x="28" y="0" width="39" height="39"></rect>
+                        <g id="arrow-forward" transform="translate(47.500000, 19.500000) rotate(-90.000000) translate(-47.500000, -19.500000) translate(39.898305, 11.898305)" fill="#FFFFFF">
+                            <path d="M8.30321852,0.701523603 C7.91577773,0.314082815 7.27966721,0.322027701 6.88981262,0.711882291 L6.9832806,0.618414319 C6.59011886,1.01157605 6.58832722,1.64722553 6.97801078,2.03690909 L11.5925847,6.65148305 L1.00848644,6.65148305 C0.451514758,6.65148305 0,7.09225516 0,7.6462216 L0,7.55716823 C0,8.10654716 0.440287292,8.55190678 1.00848644,8.55190678 L11.5925847,8.55190678 L6.97801078,13.1664807 C6.58775949,13.556732 6.59342601,14.1951209 6.9832806,14.5849755 L6.88981262,14.4915075 C7.28297436,14.8846693 7.91865222,14.8864325 8.30321852,14.5018662 L14.5018662,8.30321852 C14.889307,7.91577773 14.8864325,7.28473761 14.5018662,6.90017131 L8.30321852,0.701523603 Z" id="Shape"></path>
+                        </g>
+                        <g id="mood-copy" transform="translate(0.000000, 12.000000)" fill="#FFCE3B">
+                            <path d="M8,0 C3.6,0 0,3.6 0,8 C0,12.4 3.6,16 8,16 C12.4,16 16,12.4 16,8 C16,3.6 12.4,0 8,0 L8,0 Z M10.8,4.8 C11.44,4.8 12,5.36 12,6 C12,6.64 11.44,7.2 10.8,7.2 C10.16,7.2 9.6,6.64 9.6,6 C9.6,5.36 10.16,4.8 10.8,4.8 L10.8,4.8 Z M5.2,4.8 C5.84,4.8 6.4,5.36 6.4,6 C6.4,6.64 5.84,7.2 5.2,7.2 C4.56,7.2 4,6.64 4,6 C4,5.36 4.56,4.8 5.2,4.8 L5.2,4.8 Z M8,12.8 C5.92,12.8 4.16,11.44 3.52,9.6 L12.48,9.6 C11.84,11.44 10.08,12.8 8,12.8 L8,12.8 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                    <g id="Chat" transform="translate(13.000000, 13.000000)">
+                        <path d="M7.59258897,12.8614427 C7.72756029,12.8546678 7.86340833,12.8512397 8.00005141,12.8512397 L233.999949,12.8512397 C238.418255,12.8512397 242,16.4394802 242,20.8449174 L242,60.8575619 C242,65.2723482 238.414983,68.8512397 233.999949,68.8512397 L8.00005141,68.8512397 C3.58174502,68.8512397 0,65.2629992 0,60.8575619 L0,20.9897366 L0,4.56792355 L7.59258897,12.8614427 Z" id="Rectangle-30" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                        <text id="Hey-wat-leuk-we-kunn" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="14" font-weight="260" letter-spacing="1" fill="#2ED8B1">
+                            <tspan x="13.1719128" y="37.7355372">Hey wat leuk we kunnen hier nu </tspan>
+                            <tspan x="13.1719128" y="54.7355372">verder praten!!</tspan>
+                        </text>
+                        <text id="Denise-10:23" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="9.22033898" font-weight="bold" letter-spacing="0.699999988" fill="#738FFE">
+                            <tspan x="9.58595642" y="7">Denise 10:23</tspan>
+                        </text>
+                    </g>
+                    <g id="Chat-Copy" transform="translate(322.000000, 82.000000)">
+                        <path d="M35.533559,11.8614924 C35.6688687,11.8546845 35.8050642,11.8512397 35.9420636,11.8512397 L129.942994,11.8512397 C134.361015,11.8512397 137.942529,15.4261874 137.942529,19.8520348 L137.942529,41.8504445 C137.942529,46.2691617 134.360729,49.8512397 129.942994,49.8512397 L35.9420636,49.8512397 C31.5240425,49.8512397 27.9425287,46.2762919 27.9425287,41.8504445 L27.9425287,19.9932953 L27.9425287,3.56792355 L35.533559,11.8614924 Z" id="Rectangle-30" fill="#2ED8B1" sketch:type="MSShapeGroup" transform="translate(82.942529, 26.709582) scale(-1, 1) translate(-82.942529, -26.709582) "></path>
+                        <text id="Echt-cool-ja!---" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="14" font-weight="260" sketch:alignment="right" letter-spacing="1" fill="#FFFFFF">
+                            <tspan x="42.1016158" y="36.7355372">Echt cool ja!   </tspan>
+                        </text>
+                        <text id="Jij-10:23" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="9.2183908" font-weight="bold" sketch:alignment="right" letter-spacing="0.699999988" fill="#738FFE">
+                            <tspan x="89.2548343" y="7">Jij 10:23</tspan>
+                        </text>
+                    </g>
+                    <g id="Chat-Copy-2" transform="translate(158.000000, 183.000000)">
+                        <path d="M1.1314171,19.3040862 C1.00775893,19.8630283 0.942528736,20.4439136 0.942528736,21.0400125 L0.942528736,79.0255683 C0.942528736,83.4511222 4.52104517,87.0327904 8.93536889,87.0327904 L293.949689,87.0327904 C298.352468,87.0327904 301.942529,83.4478349 301.942529,79.0255683 L301.942529,21.0400125 C301.942529,16.6144585 298.364012,13.0327904 293.949689,13.0327904 L8.93536889,13.0327904 C8.25464906,13.0327904 7.59335701,13.1184876 6.96175761,13.2797269 L0.942528736,6.56792355 L0.942528736,19.4976572 L1.1314171,19.3040862 Z" id="Rectangle-30" fill="#2ED8B1" sketch:type="MSShapeGroup" transform="translate(151.442529, 46.800357) scale(-1, 1) translate(-151.442529, -46.800357) "></path>
+                        <text id="Ik-ga-eerst-met-vrie" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="14" font-weight="260" letter-spacing="1" fill="#FFFFFF">
+                            <tspan x="17" y="38.7355372">Ik ga eerst met vrienden naar de bios </tspan>
+                            <tspan x="17" y="55.7355372">en daarna zijn we van plan om nog een </tspan>
+                            <tspan x="17" y="72.7355372">drankje te drinken in de stad.</tspan>
+                        </text>
+                        <text id="Jij-10:24" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="10" font-weight="bold" sketch:alignment="right" letter-spacing="0.759351611" fill="#738FFE">
+                            <tspan x="251.001451" y="8">Jij 10:24</tspan>
+                        </text>
+                    </g>
+                    <g id="Chat" transform="translate(13.000000, 132.000000)">
+                        <path d="M7.5928122,12.8616865 C7.72942586,12.85475 7.86693971,12.8512397 8.00526927,12.8512397 L215.994731,12.8512397 C220.415919,12.8512397 224,16.4261874 224,20.8520348 L224,42.8504445 C224,47.2691617 220.413551,50.8512397 215.994731,50.8512397 L8.00526927,50.8512397 C3.58408113,50.8512397 0,47.2762919 0,42.8504445 L0,20.9932953 L0,4.56792355 L7.5928122,12.8616865 Z" id="Rectangle-30" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                        <text id="Wat-ga-jij-dit-weeke" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="14" font-weight="260" letter-spacing="1" fill="#2ED8B1">
+                            <tspan x="13.1719128" y="37.7355372">Wat ga jij dit weekend doen?</tspan>
+                        </text>
+                        <text id="Denise-10:24" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="9.22033898" font-weight="bold" letter-spacing="0.699999988" fill="#738FFE">
+                            <tspan x="9.58595642" y="7">Denise 10:24</tspan>
+                        </text>
+                    </g>
+                    <g id="Chat-Copy-3" transform="translate(13.000000, 270.000000)">
+                        <path d="M7.59272863,12.8615952 C7.72898205,12.8547192 7.86614431,12.8512397 8.00413286,12.8512397 L264.995867,12.8512397 C269.416428,12.8512397 273,16.432218 273,20.8520019 L273,76.5671613 C273,80.9858603 269.423251,84.5679236 264.995867,84.5679236 L8.00413286,84.5679236 C3.58357235,84.5679236 0,80.9869453 0,76.5671613 L0,20.9932789 L0,4.56792355 L7.59272863,12.8615952 Z" id="Rectangle-30" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                        <text id="Leuk-misschien-kunne" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="14" font-weight="260" letter-spacing="1" fill="#2ED8B1">
+                            <tspan x="13.1719128" y="37.7355372">Leuk misschien kunnen we elkaar in </tspan>
+                            <tspan x="13.1719128" y="54.7355372">de stad ontmoeten. Ik ga met wat </tspan>
+                            <tspan x="13.1719128" y="71.7355372">vriendinnen namelijk!</tspan>
+                        </text>
+                        <text id="Denise-10:24" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="9.22033898" font-weight="bold" letter-spacing="0.699999988" fill="#738FFE">
+                            <tspan x="9.58595642" y="7">Denise 10:24</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
