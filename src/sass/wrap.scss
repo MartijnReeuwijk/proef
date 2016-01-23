@@ -8,7 +8,7 @@
 
 	z-index: -1;
 
-	background-color: $divider-color;
+	background-color: white;
 
 	position: absolute;
 
@@ -53,19 +53,28 @@
 	left: 0;
 	margin: auto;
 
-	border: 1px solid #FFF;
+	// border: 1px solid #FFF;
 
 	text-align: center;
 
 	color: #fff;
 
 	font-size: 30px;
-	text-transform: uppercase;
-	line-height: 95px;
+	line-height: 35px;
 
 	@include animation(fade .8s ease-in);
-}
 
+	p {
+		font-size: 20px;
+	}
+
+}
+.opdrholder {
+	display: inline-block;
+	width: 100vw;
+	height: inherit;
+	position: relative;
+}
 
 .opdr {
 	width: calc(20vw - 8px);
@@ -75,7 +84,7 @@
 
 	float: left;
 	position: relative;
-	background-color: $primary-color-dark;
+	background-color: $primary-color-light;
 
 
 	background-position: center;
@@ -83,8 +92,15 @@
 
 	font-size: 20px;
 	color: $primary-color-text;
+	@include transform(scale(0));
 
 	@include transition(all .3s ease-in-out);
+
+	//  &:nth-child(9n+1) {
+	//   @include transition(all 5s ease-in-out);
+	//  }a &:nth-child(9n+2) {
+	//  @include transition(all 1s ease-in-out);
+	// }
 	.bar {
 		width: 100%;
 		height: 40px;
@@ -98,7 +114,6 @@
 		}
 	}
 
-
 	&:hover {
 		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
 		@include transition(all .3s ease-in-out);
@@ -107,8 +122,68 @@
 
 
 }
+.a {
+	@include transition(all .5s ease-in-out);
+}.b {
+	@include transition(all .7s ease-in-out);
+}.c {
+	@include transition(all .9s ease-in-out);
+}.d {
+	@include transition(all 1s ease-in-out);
+}.e {
+	@include transition(all 1.1s ease-in-out);
+}.f {
+	@include transition(all 1.3s ease-in-out);
+}.g {
+	@include transition(all 1.5s ease-in-out);
+}.h {
+	@include transition(all 1.7s ease-in-out);
+}.i {
+	@include transition(all 1.9s ease-in-out);
+}
 
 
+.bigopdr {
+	@extend .header;
+	width: 99vw;
+	max-width: 1000px;
+	height: 600px;
+
+	border-radius: 5px;
+
+	margin: 15px auto;
+
+	background-color: white;
+	background-image: url();
+
+	iframe::-webkit-scrollbar { width: 0 !important };
+	iframe {
+		border-bottom: 1px solid $primary-color-light;
+	}
+
+	.bigonder {
+		width: calc();
+		height: calc(100% - 150px);
+	}
+
+	&:last-child {
+		height: 800px;
+	}
+
+}
+.text {
+	width: calc(100% - 50px);
+	height:  100px;
+	margin: 25px;
+
+	h1 {
+		font-size: 25px;
+	}
+	p {
+		margin: 10px 0;
+	}
+
+}
 
 @keyframes fade {
 	from { opacity: 0 }

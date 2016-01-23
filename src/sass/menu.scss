@@ -1,8 +1,8 @@
 .navbar {
 	width: calc(100vw - 60px);
-	height: 110px;
+	height: 65px;
 
-	background-color: $primary-color;
+	background-color: rgba(0, 0, 0, .3);
 
 	top:0;
 
@@ -10,34 +10,28 @@
 
 	padding: 0 30px;
 
+	@include transition(all .5s ease-in-out);
 
 
 	a {
-		font-size: 14px;
+		font-size: 18px;
 		text-decoration: none;
 		float: left;
 
-		line-height: 30px;
+		line-height: 65px;
 
 		margin: 0 5px ;
 		padding: 0 10px;
 
-		text-transform: uppercase;
-
 		color: $primary-color-text;
-
-		&:visited {
-			text-decoration: none;
-			color: $primary-color-text;
-		}
 
 	}
 }
 
 .topnav {
 	width: 100%;
-	height: 60px;
-	padding-top: 5px;
+		height: inherit;
+
 }
 
 .right {
@@ -45,22 +39,6 @@
 	height: 30px;
 	width: 300px;
 
-	a {
-		width: auto;
-		border-bottom: 2px solid transparent;
-
-		&:hover {
-			border-bottom:solid 2px $accent-color;
-
-			@include transition(all .3s ease-in-out);
-
-		}
-
-		&:active {
-			border-bottom:solid 2px $accent-color;
-		}
-
-	}
 }
 
 .left {

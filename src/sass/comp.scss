@@ -14,12 +14,29 @@ body::-webkit-scrollbar { width: 0 !important };
 .contain {
 	width: 100%;
 	height: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
 }
 
 .fixed {
 	position: fixed;
 }
+.lrn {
+	width: 100%;
+	height: 45px;
 
+	font-size: 30px;
+	margin: 15px 0;
+
+	background-color: $transparent;
+	font-family: 'Roboto', sans-serif;
+
+	color: $primary-text-color;
+
+	text-align: center;
+	line-height: 45px;
+}
 .zdepth {
 	-webkit-filter: drop-shadow(0 1.8px 1.8px rgba(0, 0, 0, 0.16)) drop-shadow(0 1.8px 1.8px rgba(0, 0, 0, 0.23));
 	filter: drop-shadow(0 1.8px 1.8px rgba(0, 0, 0, 0.16)) drop-shadow(0 1.8px 1.8px rgba(0, 0, 0, 0.23));
