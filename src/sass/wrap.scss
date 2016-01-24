@@ -118,10 +118,8 @@
 		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
 		@include transition(all .3s ease-in-out);
 	}
-
-
-
 }
+
 .a {
 	@include transition(all .5s ease-in-out);
 }.b {
