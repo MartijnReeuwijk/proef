@@ -147,6 +147,8 @@
 	background-image:url(#{$img}mrgame.jpg);
 }.h {
 	@include transition(all 1.7s ease-in-out);
+	background-image:url(#{$img}newemail.jpg);
+
 }.i {
 	@include transition(all 1.9s ease-in-out);
 }
@@ -193,7 +195,12 @@
 	}
 
 }
-
+.bannerone {
+	width: 350px;
+	height: 250px;
+	position: fixed;
+	background-color: red;
+}
 @keyframes fade {
 	from { opacity: 0 }
 	to { opacity: 1 }
