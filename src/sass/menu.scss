@@ -38,20 +38,82 @@
 	.btmnavbutton {
 		width: 35px;
 		height: 35px;
-		background-color: black;
+
+		background-image: url(#{$img}map_icon.png);
+		background-size: cover;
 
 		display: table;
-	    margin: 0 auto;
+		margin: 0 auto;
 
 	}
+
+	.layerbtn {
+		width: 35px;
+		height: 35px;
+
+		background-image: url(#{$img}layer_icon.png);
+		background-size: cover;
+
+		margin:-35px 20px 0 0;
+
+		float: right;
+
+		@include transform(scale(0));
+		@include transition(all .5s ease-in-out);
+
+	}
+
 	.mapup {
 		height: calc(100vh - 35px);
 		width: 100vh;
 
 		overflow: scroll;
-	}
-}
 
+	}
+
+	.maplayer {
+		width: 35px;
+		height: 95px;
+
+		background-color: red;
+
+		position: absolute;
+
+		top: 45px;
+		right: 21px;
+		bottom: 0;
+
+		@include transform(scale(0));
+		@include transition(all .5s ease-in-out);
+
+		.add {
+			margin-top: 10px;
+			background-image: url(#{$img}add_icon.png);
+			background-size: cover;
+
+		}
+
+		.remove {
+			margin-top: 10px;
+			background-image: url(#{$img}remove_icon.png);
+			background-size: cover;
+
+		}
+	}
+
+	.scale {
+
+		@include transform(scale(1));
+		@include transition(all .5s ease-in-out);
+
+	}
+
+}
+.btn {
+	width: 35px;
+	height: 35px;
+
+}
 .fullscreen {
 	height:100vh;
 

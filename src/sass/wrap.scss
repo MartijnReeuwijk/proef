@@ -37,6 +37,8 @@
 		width: 80%;
 		height: 50px;
 
+		padding: 0 10px;
+
 		margin: 10px 0px;
 		top: 0;
 		right: 0;
@@ -47,7 +49,7 @@
 		@include transition(all .5s ease-in-out);
 
 		&:focus {
-			width: 95%;
+			width: 90%;
 
 			@include transition(all .5s ease-in-out);
 
