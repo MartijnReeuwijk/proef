@@ -8,10 +8,7 @@
 
 	z-index: -1;
 
-
-
-	background:
-	linear-gradient(
+	background:linear-gradient(
 	rgba(0, 0, 0, .4),
 	rgba(0, 0, 0, .4)
 	),
@@ -29,9 +26,13 @@
 
 .inputcenter {
 	text-align: center;
-	position: relative;;
-	top:calc(65% - 152px);
-	margin:0;
+	position: absolute;
+	height: 150px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
 
 	input {
 		width: 80%;
