@@ -1,207 +1,55 @@
 .wrapper {
 	// width: calc(100% - 20px);
-	width: 100%;
-	height: auto;
+	width: 100vw;
+	height: 100vh;
 
 	// margin: 0 10px;
 	margin: 0px;
 
 	z-index: -1;
 
-	background-color: white;
-
-	position: absolute;
-
-}
-
-.header {
-	// width: calc(100% - 20px);
-	width: 100%;
-	height: 100vh;
-
-	background-color: $primary-color-light;
-	background-image:url(#{$img}place.jpg);
-	background-position: center;
 	background-size: cover;
+	background-repeat: no-repeat;
 
-	margin: 0 auto 10px auto;
-
-	right: 0;
-	left: 0;
-
-	z-index: 0;
+	background:
+	linear-gradient(
+	rgba(0, 0, 0, .4),
+	rgba(0, 0, 0, .4)
+	),
+	url(#{$img}background.jpg);
 }
 
-.introholder {
-	width: 100%;
-	height: 100%;
-	position: relative;
-	background-color:rgba(0 , 0 , 0 , .7);
-}
-
-.intro {
-	width: 550px;
-	max-width:98vw;
-	height: 95px;
-
-	background-color: transparent;
-
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	margin: auto;
-
-	// border: 1px solid #FFF;
-
-	text-align: center;
-
-	color: #fff;
-
-	font-size: 30px;
-	line-height: 35px;
-
-	@include animation(fade .8s ease-in);
-
-	p {
-		font-size: 20px;
-	}
-
-}
-.opdrholder {
-	display: inline-block;
+.inputholder {
+	height: calc(100vh - 35px);
 	width: 100vw;
-	height: inherit;
-	position: relative;
+
 }
 
-.opdr {
-	width: calc(20vw - 8px);
-	height: 200px;
+.inputcenter {
+	text-align: center;
+	position:absolute;
+	top:35%;
+	margin:0;
 
-	margin: 4px;
+	input {
+		width: 80%;
+		height: 50px;
 
-	float: left;
-	position: relative;
-	background-color: $primary-color-light;
-
-
-	background-position: center;
-	background-size: cover;
-
-	font-size: 20px;
-	color: $primary-color-text;
-	@include transform(scale(0));
-
-	@include transition(all .3s ease-in-out);
-
-	//  &:nth-child(9n+1) {
-	//   @include transition(all 5s ease-in-out);
-	//  }a &:nth-child(9n+2) {
-	//  @include transition(all 1s ease-in-out);
-	// }
-	.bar {
-		width: 100%;
-		height: 40px;
-		z-index: 1;
-		background-color: rgba(0, 0, 0, .4);
-		position: absolute;
+		margin: 10px 0px;
+		top: 0;
+		right: 0;
 		bottom: 0;
+		left: 0;
 
-		p {
-			margin: 5px;
-			line-height: 30px;
+		position: relative;
+		@include transition(all .5s ease-in-out);
+
+		&:focus {
+			width: 95%;
+
+			@include transition(all .5s ease-in-out);
+
 		}
+
 	}
-
-	&:hover {
-		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
-		@include transition(all .3s ease-in-out);
-	}
-}
-
-.a {
-	@include transition(all .5s ease-in-out);
-	background-image:url(#{$img}card.jpg);
-}.b {
-	@include transition(all .7s ease-in-out);
-	background-image:url(#{$img}kick.jpg);
-
-}.c {
-	@include transition(all .9s ease-in-out);
-	background-image:url(#{$img}oldemail.jpg);
-
-}.d {
-	@include transition(all 1s ease-in-out);
-	background-image:url(#{$img}heman.jpg);
-}.e {
-	@include transition(all 1.1s ease-in-out);
-	background-image:url(#{$img}continental.jpg);
-}.f {
-	@include transition(all 1.3s ease-in-out);
-	background-image:url(#{$img}newemail.jpg);
-
-}.g {
-	@include transition(all 1.5s ease-in-out);
-	background-image:url(#{$img}mrgame.jpg);
-}.h {
-	@include transition(all 1.7s ease-in-out);
-	background-image:url(#{$img}kickbanner.jpg);
-
-}.i {
-	@include transition(all 1.9s ease-in-out);
-}
-
-
-.bigopdr {
-	@extend .header;
-	width: 99vw;
-	max-width: 1000px;
-	height: 600px;
-
-	border-radius: 5px;
-
-	margin: 15px auto;
-
-	background-color: white;
-	background-image: url();
-
-	iframe::-webkit-scrollbar { width: 0 !important };
-	iframe {
-		border-bottom: 1px solid $primary-color-light;
-	}
-
-	.bigonder {
-		width: calc();
-		height: calc(100% - 150px);
-	}
-
-	&:last-child {
-		height: 800px;
-	}
-
-}
-.text {
-	width: calc(100% - 50px);
-	height:  100px;
-	margin: 25px;
-
-	h1 {
-		font-size: 25px;
-	}
-	p {
-		margin: 10px 0;
-	}
-
-}
-.bannerone {
-	width: 350px;
-	height: 250px;
-	position: fixed;
-	background-color: red;
-}
-@keyframes fade {
-	from { opacity: 0 }
-	to { opacity: 1 }
 }

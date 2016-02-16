@@ -1,57 +1,58 @@
 .navbar {
-	width: calc(100vw - 60px);
-	height: 65px;
-
-	background-color: rgba(0, 0, 0, .3);
+	width: 100vw;
+	height: 35px;
 
 	top:0;
 
 	z-index: 1;
 
-	padding: 0 30px;
+
+	@include transition(all .5s ease-in-out);
+
+	.navbutton {
+		width: 35px;
+		height: 35px;
+		float: left;
+
+		margin-left: 10px;
+
+		background-color: black;
+	}
+
+}
+
+.mapmenu {
+	height: 35px;
+	width: 100vw;
+
+	position: absolute;
+	bottom: 0;
+
+	background-color: $accent-color;
+
+	overflow: hidden;
 
 	@include transition(all .5s ease-in-out);
 
 
-	a {
-		font-size: 18px;
-		text-decoration: none;
-		float: left;
+	.btmnavbutton {
+		width: 35px;
+		height: 35px;
+		background-color: black;
 
-		line-height: 65px;
+		display: table;
+	    margin: 0 auto;
 
-		margin: 0 5px ;
-		padding: 0 10px;
+	}
+	.mapup {
+		height: calc(100vh - 35px);
+		width: 100vh;
 
-		color: $primary-color-text;
-
+		overflow: scroll;
 	}
 }
 
-.topnav {
-	width: 100%;
-		height: inherit;
-
-}
-
-.right {
-	float: right;
-	height: 30px;
-	width: 300px;
-
-}
-
-.left {
-	@extend .right;
-	width: auto;
-
-	float: left;
-
-	li {
-		float: left;
-
-		@extend .zdepth;
-
-	}
+.fullscreen {
+	height:100vh;
 
 }
