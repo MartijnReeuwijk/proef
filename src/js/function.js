@@ -9,5 +9,15 @@ $( document ).ready(function() {
 		$('.maplayer').toggleClass('scale');
 	});
 
+	$('#yourdest').keypress(function (e) {
+	  if (e.which == 13) {
+		$('#yourloc').submit();
+	    $('#yourdest').submit();
+		$("#yourdest").select().blur();
+		$('.layerbtn').toggleClass('scale');
+		$('.mapmenu').toggleClass('fullscreen');
+
+	  }
+	});
 
 });

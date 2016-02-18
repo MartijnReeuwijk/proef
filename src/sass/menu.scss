@@ -88,6 +88,8 @@
 		right: 21px;
 		bottom: 0;
 
+		border-radius: 5px;
+
 		@include transform(scale(0));
 		@include transition(all .5s ease-in-out);
 
