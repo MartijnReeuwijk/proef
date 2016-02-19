@@ -92,7 +92,7 @@
 		border-radius: 5px;
 
 		@include transform(scale(0));
-		@include transition(all .5s ease-in-out);
+		@include transition(all .3s ease-in-out);
 
 		.add {
 			margin-top: 10px;
@@ -131,6 +131,5 @@
 
 }
 .fullscreen {
-	height:100vh;
-
+	height:100%;
 }
