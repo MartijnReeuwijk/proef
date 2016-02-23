@@ -30,7 +30,7 @@
 	height: 35px;
 	width: 100vw;
 
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 
 	background-color: $accent-color;
@@ -69,7 +69,7 @@
 	}
 
 	.mapup {
-		height: calc(100vh - 35px);
+		height: calc(100% - 35px);
 		// width: 100vh;
 
 		background-color: white;

@@ -53,11 +53,19 @@
 
             <section class="inputholder">
                 <article class="inputcenter">
-                    <input type="text" id="yourloc" name="name" required placeholder="Voer je locatie in ">
-                    <label for="yourloc"></label>
+                    <form>
 
-                    <input type="text" id="yourdest" name="name" required placeholder="voor je besteming in">
-                    <label for="yourdest"></label>
+                        <div class="group">
+                            <input id="yourloc" type="text" required>
+                            <label>Uw locatie</label>
+                        </div>
+
+                        <div class="group">
+                            <input id="yourdest" type="text" required>
+                            <label>Besteming</label>
+                        </div>
+
+                    </form>
                 </article>
             </section>
 
