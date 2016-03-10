@@ -12,16 +12,25 @@ body::-webkit-scrollbar { width: 0 !important };
 }
 
 .contain {
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
 	z-index: 1;
 
+	overflow: hidden;
+
 }
 
+.pushleft {
+	margin-left: 100vw;
+	@include transition(all .5s ease-in-out);
 
+}
+.disnone {
+	display: none;
+}
 
 .fixed {
 	position: fixed;

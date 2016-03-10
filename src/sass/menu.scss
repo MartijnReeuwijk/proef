@@ -30,7 +30,7 @@
 	height: 35px;
 	width: 100vw;
 
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 
 	background-color: $accent-color;
@@ -68,6 +68,19 @@
 
 	}
 
+	.navbtn {
+		width: 35px;
+		height: 35px;
+
+		background-image: url(#{$img}nav_icon.png);
+		background-size: cover;
+
+		margin:-35px 20px 0 0;
+
+		float: right;
+
+	}
+
 	.mapup {
 		height: calc(100% - 35px);
 		// width: 100vh;
@@ -76,6 +89,8 @@
 
 		overflow: scroll;
 		@include transition(all .5s ease-in-out);
+
+		z-index: 99;
 
 	}
 
@@ -125,13 +140,6 @@
 	}
 
 }
-
-.sidemenu {
-	height: 100%;
-
-	background-color: black;
-}
-
 .btn {
 	width: 35px;
 	height: 35px;
@@ -139,5 +147,4 @@
 }
 .fullscreen {
 	height:100vh;
-
 }

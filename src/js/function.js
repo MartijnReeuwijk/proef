@@ -3,6 +3,8 @@ $( document ).ready(function() {
 	$('.btmnavbutton').click(function(){
 		$('.mapmenu').toggleClass('fullscreen');
 		$('.layerbtn').toggleClass('scale');
+		$('.navbtn').toggleClass('disnone');
+
 
 	});
 
@@ -19,6 +21,12 @@ $( document ).ready(function() {
 		$('.mapmenu').toggleClass('fullscreen');
 
 	  }
+	});
+
+	$('.navbtn').click(function(){
+		$('.locframe').toggleClass('pushleft');
+		$('.first').toggleClass('pushleft');
+		// $('.first').toggleClass('disnone');
 	});
 
 });
