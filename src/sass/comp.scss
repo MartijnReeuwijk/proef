@@ -28,10 +28,16 @@ body::-webkit-scrollbar { width: 0 !important };
 	@include transition(all .5s ease-in-out);
 
 }
+
 .disnone {
 	display: none;
 }
 
+.leftmove {
+	width: 100vw;
+	@include transition(all .5s ease-in-out);
+
+}
 .fixed {
 	position: fixed;
 }

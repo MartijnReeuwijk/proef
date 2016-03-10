@@ -140,6 +140,29 @@
 	}
 
 }
+
+.sidemenu {
+	width: 0vw;
+	height: 100%;
+	background-color: red;
+	z-index: 999999;
+
+	@include transition(all .5s ease-in-out);
+
+}
+
+.sideheader {
+	background-color: blue;
+}
+
+
+
+.side {
+	width: 100%;
+	height: 45px;
+	
+	float: left;
+}
 .btn {
 	width: 35px;
 	height: 35px;

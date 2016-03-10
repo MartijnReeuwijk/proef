@@ -23,6 +23,16 @@ $( document ).ready(function() {
 	  }
 	});
 
+	$('#yoursearch').keypress(function (e) {
+	  if (e.which == 13) {
+		$('#yoursearch').submit();
+		$("#yoursearch").select().blur();
+		$('.sidemenu').toggleClass('leftmove');
+		$('.first').toggleClass('disnone');
+
+	  }
+	});
+
 	$('.navbtn').click(function(){
 		$('.locframe').toggleClass('pushleft');
 		$('.first').toggleClass('pushleft');
