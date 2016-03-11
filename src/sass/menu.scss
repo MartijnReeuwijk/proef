@@ -37,6 +37,8 @@
 
 	overflow: hidden;
 
+	z-index: 3;
+
 	@include transition(all .5s ease-in-out);
 
 
@@ -90,7 +92,7 @@
 		overflow: scroll;
 		@include transition(all .5s ease-in-out);
 
-		z-index: 99;
+		z-index: 999;
 
 	}
 
@@ -144,7 +146,7 @@
 .sidemenu {
 	width: 0vw;
 	height: 100%;
-	background-color: red;
+	background-color: white;
 	z-index: 999999;
 
 	@include transition(all .5s ease-in-out);
@@ -152,7 +154,7 @@
 }
 
 .sideheader {
-	background-color: blue;
+	background-color: grey;
 }
 
 .side {
@@ -161,7 +163,7 @@
 
 	float: left;
 }
-.btn {
+.btns {
 	width: 35px;
 	height: 35px;
 

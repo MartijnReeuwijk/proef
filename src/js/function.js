@@ -19,6 +19,7 @@ $( document ).ready(function() {
 			$("#yourdest").select().blur();
 			$('.layerbtn').toggleClass('scale');
 			$('.mapmenu').toggleClass('fullscreen');
+			$('.navbtn').toggleClass('disnone');
 
 		}
 	});
@@ -36,14 +37,24 @@ $( document ).ready(function() {
 
 	$('.navbtn').click(function(){
 		$('.locframe').toggleClass('pushleft');
+		$('.locframe').toggleClass('disnone');
+		$('.searchholder').toggleClass('disnone');
+
 		$('.first').toggleClass('pushleft');
 		$('.sidemenu').removeClass('leftmove');
+		$('.sidemenu').toggleClass('disnone');
 	});
-
+	
 	$(document).ready(function(){
+
+		$('[data-click]').on('click', function (e) {
+			$( $(this).attr('href') ).trigger('click');
+		});
+
 		$('.collapsible').collapsible({
 			accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
 		});
 	});
+
 
 });
