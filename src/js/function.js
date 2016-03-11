@@ -35,6 +35,12 @@ $( document ).ready(function() {
 		}
 	});
 
+	$('.close').click(function(){
+		$('.sidemenu').toggleClass('leftmove');
+		$('.first').toggleClass('disnone');
+		$('.collapsible').toggleClass('disnone');
+	});
+
 	$('.navbtn').click(function(){
 		$('.locframe').toggleClass('pushleft');
 		$('.locframe').toggleClass('disnone');
@@ -44,7 +50,7 @@ $( document ).ready(function() {
 		$('.sidemenu').removeClass('leftmove');
 		$('.sidemenu').toggleClass('disnone');
 	});
-	
+
 	$(document).ready(function(){
 
 		$('[data-click]').on('click', function (e) {

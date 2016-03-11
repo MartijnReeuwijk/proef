@@ -30,7 +30,7 @@
 	height: 35px;
 	width: 100vw;
 
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 
 	background-color: $accent-color;
@@ -154,14 +154,42 @@
 }
 
 .sideheader {
-	background-color: grey;
+	background-color: #dbdbdb;
 }
 
 .side {
 	width: 100%;
 	height: 55px;
+	float: left;
+}
+
+.submenu {
+	width: 100%;
+	height: inherit;
+
+	background-color: #dbdbdb
+}
+
+.subcss {
+	width: 100%;
+	height: 55px;
+}
+
+.subinfo {
+
+}
+.submenuinfo {
+	height: 100%;
+	width: 33.333%;
 
 	float: left;
+	// background-color: blue;
+
+	text-align: center;
+	vertical-align: middle;
+	line-height: 55px;
+
+	border-bottom: 1px solid $accent-color;
 }
 .btns {
 	width: 35px;
