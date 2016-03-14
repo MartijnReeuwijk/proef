@@ -167,7 +167,7 @@
 	width: 100%;
 	height: inherit;
 
-	background-color: #dbdbdb
+	background-color: #F5F5F5
 }
 
 .subcss {
@@ -191,11 +191,17 @@
 
 	border-bottom: 1px solid $accent-color;
 }
+
+.extrainfo {
+	height: inherit;
+	position: relative;
+}
+
 .btns {
 	width: 35px;
 	height: 35px;
-
 }
+
 .fullscreen {
 	height:100vh;
 }

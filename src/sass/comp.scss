@@ -124,6 +124,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
   border-top: 1px solid $primary-color-light;
   border-right: 1px solid $primary-color-light;
   border-left: 1px solid $primary-color-light;
+  border-bottom: 1px solid $accent-color;
   margin:0;
 
 }

@@ -35,6 +35,10 @@ $( document ).ready(function() {
 		}
 	});
 
+	$('.info').click(function(){
+		$(this).next($('.extrainfo')).toggleClass('disnone');
+	});
+
 	$('.close').click(function(){
 		$('.sidemenu').toggleClass('leftmove');
 		$('.first').toggleClass('disnone');
